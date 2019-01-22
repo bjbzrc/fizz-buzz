@@ -13,25 +13,21 @@ int main()
 			cout << "FizzBuzz\n";
 			continue;
 		}
-		
 		else if (i % 3 == 0)
 		{
 			cout << "Fizz\n";
 			continue;
 		}
-		
 		else if (i % 5 == 0)
 		{
 			cout << "Buzz\n";
 			continue;
 		}
-		
 		else
 		{
 			cout << i << endl;
 			continue;
 		}
 	}
-	
 	return 0;
 }
